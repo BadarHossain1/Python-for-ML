@@ -107,3 +107,10 @@ print(x is y)  # Output: True (x and y refer to the same object in memory)
 print(x is not z) # Output: True (x and z do not refer to the same object)
 print(x is not y) # Output: False
 
+# Membership Operators
+my_list = [1, 2, 3, 4, 5]
+
+print(2 in my_list)  # Output: True (2 is present in my_list)
+print(6 in my_list)  # Output: False (6 is not present in my_list)
+print(2 not in my_list) # Output: False (2 is present, so it's not not in)
+print(6 not in my_list) # Output: True
